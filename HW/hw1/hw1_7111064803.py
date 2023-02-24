@@ -8,7 +8,7 @@ import re
 
 
 input = open('C:/Users/USER/Desktop/reinforcement_learning/HW/hw1/rabbit_farm.txt')
-output = open('C:/Users/USER/Desktop/reinforcement_learning/HW/hw1/rabbits.out.txt','w')
+output = open('C:/Users/USER/Desktop/reinforcement_learning/HW/hw1/rabbits.out','w')
 
 str_read = input.read()
 str_replace = str_read.replace(":", "\n",)
