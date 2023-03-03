@@ -15,8 +15,9 @@ str_replace = str_read.replace(":", "\n",)
 str_replace = str_replace.strip()
 list_1 = str_replace.split('\n')
 
+
 #print(list_1[0:15])             
-#print(len(list_1))                         ----->  30905
+#print(len(list_1))                        # ----->  30905
 
 
 numbers = [int(temp)for temp in list_1 if temp.isdigit()]
