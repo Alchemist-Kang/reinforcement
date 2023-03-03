@@ -92,10 +92,10 @@ for i in range(Probability_s_a.shape[0]):                ## i is row
 #print(Rewards, Rewards.dtype)
 
 
-Value_pi = np.dot(inv(I_matrix - gamma*(Probability_s_a)), Rewards)
-Value_pi = np.round(Value_pi,decimals=1)
+Value_function = np.dot(inv(I_matrix - gamma*(Probability_s_a)), Rewards)
+Value_function = np.round(Value_function,decimals=1)
 
-print(Value_pi)
+print(Value_function)
 
 
 
