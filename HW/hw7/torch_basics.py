@@ -16,6 +16,7 @@ result=compute([7.,8.,9.])
 result.backward() #compute gradients on model graph
 
 
+
 #print gradients & result
 print(a.grad)  #grad wrt a is 2ax
 print(b.grad)  #grad wrt b is 1
