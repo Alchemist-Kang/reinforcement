@@ -115,6 +115,8 @@ q=MLP(simenv.numFeatures,simenv.numActions)
 qlearn_fa_replay(simenv,q,0.99,1.0,1e-3,3000,500,epsilon_decay_len=1500,decayEpsilon=True,showPlots=show_plots,
                      replay_size=5000, batch_size=10)
 
+    #### It seems that when batch_size = 1 
+
 #run an episode using computed q(s,a)
 from gym.wrappers import RecordVideo
 simenv = RecordVideo(gym.make('Acrobot-v1'), './acrobot_video_replay')
