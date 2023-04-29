@@ -4,13 +4,13 @@
 Here is the note of RL class.
 
 Hw1: Rabbit farm.
- To make you be familiar with python and its libraries.
+<br>To make you be familiar with python and its libraries.<br/>
 
 Hw2: Value Function using matrix approach. 
- Numpy is a good tools for solving matrix computing problems.
+<br>Numpy is a good tools for solving matrix computing problems.<br/>
 
-Hw3: Value Function & optimal policy using iterative DP method. 
- Getting to know more about RL with "Values" & "Policy".
+Hw3: Value Function & optimal policy using iterative DP method.<br/>
+<br>Getting to know more about RL with "Values" & "Policy".
 
 Hw4: Monte Carlo with Cat-Mouse environment. 
  Testing environments with Cat-Mouse envs with our First real RL method "Monte Carlo".
