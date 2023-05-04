@@ -112,8 +112,8 @@ simenv.numFeatures=simenv.observation_space.shape[0]
 q=MLP(simenv.numFeatures,simenv.numActions)
 
 #Compute q(s,a) using Q-learning with function approximation & experience replay   
-qlearn_fa_replay(simenv,q,0.99,1.0,1e-3,3000,500,epsilon_decay_len=1500,decayEpsilon=True,showPlots=show_plots,
-                     replay_size=5000, batch_size=10)
+qlearn_fa_replay(simenv,q,0.99,1.0,1e-4,3000,500,epsilon_decay_len=1500,decayEpsilon=True,showPlots=show_plots,
+                     replay_size=5000, batch_size=1)
 
     #### It seems that when batch_size = 1 
 

@@ -238,7 +238,7 @@ def qlearn_fa_replay(simenv, q, gamma, epsilon, alpha, num_episodes, max_episode
     #  depending on your specific implementation
     #
     mse = torch.nn.MSELoss()                            ##### Choose MSELoss
-    optim = torch.optim.SGD(q.parameters(),lr=alpha)    ##### Choose SGD
+    optim = torch.optim.SGD(q.parameters(),lr=alpha)    ##### Choose SGD    also you can use Adam or something else to do a reasonable optimization
 
     if epsilon_decay_len is None: epsilon_decay_len=num_episodes
     egp=EpsilonGreedyPolicy(epsilon, epsilon_decay_len, actions, prng) #Epsilon-greedy policy helper
