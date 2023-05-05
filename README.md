@@ -30,4 +30,7 @@ Hw8: Semi-gradient TD(0) with NN function approximation.
 Hw9: Q-Learning with NN && Acrobot environment. 
 <br>Off-policy Q-Learning sometimes causes "Dead Triad". How do we solve it?<br/>
 
+Hw10: Policy gradient using REINFORCE method
+<br>Acrobot & CartPole envs with policy gradient method. We directly derive our poloicy rather than using V(s) or Q(s,a).<br/>
+
 
